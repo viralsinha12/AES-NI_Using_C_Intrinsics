@@ -1,6 +1,6 @@
 //this code should be first compiled with gcc compiler
 //command for compiling - gcc -march=native AES_NI.c 
-//which tells the compiler to product code in native language on an INTEL system.
+//which tells the compiler to produce code in native language on an INTEL/AMD64 system.
 
 #include <stdint.h>     //for int8_t
 #include <string.h>     //for memcmp
